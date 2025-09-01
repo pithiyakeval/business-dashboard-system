@@ -33,7 +33,7 @@ project-root/
 
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/admin-dashboard.git
+git clone https://github.com/pithiyakeval/business-dashboard-system
 cd admin-dashboard
 
 2️⃣ Setup Backend
