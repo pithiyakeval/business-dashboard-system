@@ -1,0 +1,119 @@
+/* Full page center */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9fafb;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Box styling */
+.login-box {
+  width: 380px;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  color: #111827;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+/* Divider */
+.divider {
+  margin: 20px 0;
+  color: #9ca3af;
+  font-size: 14px;
+  position: relative;
+}
+.divider::before, .divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #e5e7eb;
+}
+.divider::before { left: 0; }
+.divider::after { right: 0; }
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0px 0px 4px rgba(37, 99, 235, 0.3);
+}
+
+.form-links {
+  text-align: right;
+  margin-top: -5px;
+}
+
+.form-links a {
+  font-size: 13px;
+  color: #2563eb;
+  text-decoration: none;
+}
+.form-links a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.login-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #1e40af;
+}
+
+/* Google Button wrapper */
+.google-login {
+  display: flex;
+  justify-content: center;
+}
+
+/* Register */
+.register-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #374151;
+}
+.register-text a {
+  color: #2563eb;
+  text-decoration: none;
+}
+.register-text a:hover {
+  text-decoration: underline;
+}

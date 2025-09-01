@@ -1,0 +1,46 @@
+.sidebar {
+  width: 220px;
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+}
+
+.company-name {
+  color: #f9fafb; /* light color for contrast, almost white */
+  font-weight: bold; /* optional for emphasis */
+}
+.company-name {
+  color: #ffffff; /* light text color */
+  background-color: #1f2937; /* dark background, adjust as needed */
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+.sidebar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 12px;
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.sidebar-nav a:hover {
+  background-color: #374151;
+}
+
+.active-link {
+  background-color: #4B5563;
+}
