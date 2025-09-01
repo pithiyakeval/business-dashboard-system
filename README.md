@@ -61,9 +61,6 @@ Start frontend:
 
 npm run dev
 
-📸 Screenshots (Optional)
-
-Add some screenshots of your dashboard UI here to make it visually attractive.
 
 📌 Future Enhancements
 
